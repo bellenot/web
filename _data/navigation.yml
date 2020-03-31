@@ -1,0 +1,231 @@
+# main links => top menu bar
+
+main:
+  - title: "About ..."
+    url: about
+    description: "About ROOT"
+  - title: "Download"
+    url: download
+    description: "All you need to download and install ROOT"
+  - title: "Get Started"
+    url: get_started
+    description: "ROOT usage starting point"
+  - title: "Forum"
+    url: https://root-forum.cern.ch/
+    description: "Ask questions about ROOT"
+    target: _blank
+  - title: "Manual"
+    url: manual
+    description: "High level ROOT manual"
+  - title: "News"
+    url: news
+    description: "Latest ROOT news"
+  - title: "Contribute"
+    url: contribute
+    description: "Contribute to ROOT !"
+  - title: "For Developers"
+    url: for_developers
+    description: "Resources for ROOT developers"
+
+# side bar menus
+
+manual:
+  - title: ROOT Manual - Basics
+    url: manual/basics
+    children:
+      - title: Getting started with ROOT
+        url: manual/getting_started_with_root
+      - title: ROOT classes, data types and global variables
+        url: manual/root_classes_data_types_and_global_variables
+      - title: Adding a class to ROOT
+        url: manual/adding_a_class_to_root
+      - title: ROOT collections
+        url: manual/root_collections
+      - title: Object ownership
+        url: manual/object_ownership
+      - title: ROOT files
+        url: manual/storing_root_objects
+  - title: ROOT Manual - Functional parts
+    url: manual/functional_parts
+    children:
+      - title: Graphics
+        url: manual/graphics
+      - title: Histograms
+        url: manual/histograms
+      - title: Graphs
+        url: manual/graphs
+      - title: Trees
+        url: manual/trees
+      - title: Data frames
+        url: manual/data_frame
+      - title: RooFit
+        url: manual/roofit
+      - title: TMVA
+        url: manual/tmva
+      - title: Mathematical libraries
+        url: manual/math
+      - title: Vectors
+        url: manual/vectors
+      - title: Geometry
+        url: manual/geometry
+      - title: Python interface PyROOT
+        url: manual/python
+  - title: Further information
+    children:
+      - title: "Reference Guide"
+        url: reference
+      - title: "Tutorials"
+        url: https://root.cern/doc/master/group__Tutorials.html
+        target: _blank
+      - title: "Primer"
+        url: primer/
+      - title: "Topical Manuals"
+        url: topical/
+      - title: "Forum"
+        url: https://root-forum.cern.ch/
+        target: _blank
+
+for_developers:
+   - title: Program of Work
+     url: for_developers/program_of_work
+   - title: Code Owners
+     url: for_developers/code_owners
+   - title: Release Checklist
+     url: for_developers/release_checklist
+   - title: Shifter's Instructions
+     url: for_developers/shifters_instructions
+   - title: Git Primer
+     url: for_developers/git_primer
+     children:
+      - title: "Creating a Pull Request"
+        url: for_developers/git_primer/creating_pr
+      - title: "GitHub ssh key"
+        url: for_developers/git_primer/github_ssh_key
+      - title: "Git Tips and Trick"
+        url: for_developers/git_primer/git_tips_and_tricks
+      - title: "Git How Tos"
+        url: for_developers/git_primer/git_how_tos
+      - title: "NoSY Worlflow"
+        url: for_developers/git_primer/nosy_workflow
+   - title: Browse Sources
+     url: https://github.com/root-project/root
+     target: _blank
+   - title: Meetings
+     url: for_developers/meetings
+   - title: ROOT 7
+     url: for_developers/root7
+   - title: Run the Tests
+     url: for_developers/run_the_tests
+   - title: Setup externals from AFS/CVMFS
+     url: for_developers/setup_externals_from_afs-cvmfs
+   - title: Continous Integration / Testing
+     children:
+      - title: Jenkins Service
+        url: https://lcgapp-services.cern.ch/root-jenkins/
+        target: _blank
+      - title: Jenkins How To
+        url: for_developers/continous_integration-testing/jenkins_how_to
+        target: _blank
+      - title: CDash
+        url: http://cdash.cern.ch/index.php?project=ROOT
+        target: _blank
+      - title: Coverity
+        url: https://coverity.cern.ch/login/login.htm
+        target: _blank
+      - title: GitHub
+        url: https://github.com/root-project/root
+        target: _blank
+      - title: GitWeb
+        url: https://root.cern.ch/gitweb/?p=root.git;a=summary
+        target: _blank
+      - title: Jira
+        url: https://sft.its.cern.ch/jira/projects/ROOT?selectedItem=com.atlassian.jira.jira-projects-plugin%3Asummary-page
+        target: _blank
+      - title: ROOTBinder Checklist
+        url: for_developers/continous_integration-testing/rootbinder_checklist
+        target: _blank
+   - title: Doxygen in ROOT
+     url: for_developers/doxygen
+   - title: Editing the ROOT web site
+     url: for_developers/web
+     children:
+      - title: "Web Site To-Do list"
+        url: for_developers/web/todo
+   - title: Benchmarks
+     url: https://rootbnch-grafana-test.cern.ch
+     target: _blank
+   - title: ROOT Logos
+     url: https://root.cern.ch/img/logos/ROOT_Logo/
+     target: _blank
+
+download:
+   - title: Download (binaries and sources)
+     url: download
+     children:
+      - title: All releases
+        url: download/all_releases
+      - title: Nightlies
+        url: download/nightlies
+      - title: ROOT sources
+        url: download/building_root/get_root_sources
+   - title: Supported platforms
+     url: download/building_root/supported_platforms
+   - title: Using binaries
+     url: download/using_binaries
+   - title: Building ROOT
+     url: download/building
+     children:
+      - title: Prerequisites
+        url: download/building_root/build_prerequisites
+      - title: Building ROOT with CMake
+        url: download/building_root
+
+news:
+   - title: News
+     url: news
+   - title: Workshops
+     url: news/workshops
+   - title: Publications
+     url: news/publications
+
+contribute:
+   - title: Contribute
+     url: contribute
+   - title: Contributors
+     url: contribute/contributors
+   - title: Coding Conventions
+     url: contribute/coding_conventions
+
+about:
+   - title: About ROOT
+     url: about
+     children:
+      - title: Save data
+        url: about/save_data
+      - title: Access data
+        url: about/access_data
+      - title: Mine data
+        url: about/mine_data
+      - title: Publish Results
+        url: about/publish_results
+      - title: Interactive or Built Applications
+        url: about/interactive_or_built_applications
+      - title: Integration with other languages
+        url: about/integration_with_other_languages
+   - title: Licence
+     url: about/licence
+   - title: Project Founders
+     url: about/project_founders
+   - title: Team
+     url: about/team
+   - title: Previous Developers
+     url: about/previous_developers
+
+start:
+   - title: Get Started
+     url: get_started
+     children:
+      - title: Courses
+        url: get_started/courses
+      - title: Code Examples
+        url: get_started/code_examples
